@@ -49,7 +49,7 @@ const Asidebar = () => {
             {open && (
               <Link
                 to={`/workspace/${workspaceId}`}
-                className="hidden md:flex ml-2 items-center gap-2 self-center font-semibold text-lg text-primary dark:text-primary-foreground"
+                className="hidden md:flex ml-2 items-center gap-2 self-center font-extrabold text-lg text-primary dark:text-primary-foreground"
               >
                 Task Pilot
               </Link>
