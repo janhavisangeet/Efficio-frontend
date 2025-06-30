@@ -81,15 +81,17 @@ export function DataTableFacetedFilter({
                 ) : (
                   options
                     .filter((option) => selectedValueSet.has(option.value))
-                    .map((option) => (
-                      <Badge
-                        variant="secondary"
-                        key={option.value}
-                        className="rounded-sm px-1 font-normal"
-                      >
-                        {option.label}
-                      </Badge>
-                    ))
+                    .map((option) => {
+                      return (
+                        <Badge
+                          variant="secondary"
+                          key={option.value}
+                          className="rounded-sm px-1 font-normal"
+                        >
+                          {option.label}
+                        </Badge>
+                      );
+                    })
                 )}
               </div>
             </>
@@ -104,6 +106,7 @@ export function DataTableFacetedFilter({
             <CommandGroup>
               {options.map((option) => {
                 const isSelected = selectedValueSet.has(option.value);
+                console.log(option);
                 return (
                   <CommandItem
                     className={`cursor-pointer`}

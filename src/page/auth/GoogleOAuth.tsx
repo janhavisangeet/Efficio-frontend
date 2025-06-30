@@ -37,7 +37,7 @@ const GoogleOAuth = () => {
           className="flex items-center gap-2 self-center font-bold text-lg text-primary dark:text-primary-foreground"
         >
           <Logo />
-          Task Pilot
+          Efficio
         </Link>
         <div className="flex flex-col gap-6"></div>
       </div>
