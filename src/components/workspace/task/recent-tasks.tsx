@@ -51,7 +51,7 @@ const RecentTasks = () => {
 
       <ul role="list" className="divide-y divide-gray-200">
         {tasks.map((task) => {
-          const name = task?.assignedTo?.name || "";
+          const name = task?.assignedTo?.name || "Unassigned";
           const initials = getAvatarFallbackText(name);
           const avatarColor = getAvatarColor(name);
           return (
