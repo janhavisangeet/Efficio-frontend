@@ -148,4 +148,10 @@ npm run dev
 
 ---
 
+## 🚀 Live Demo
+
+Try the app here 👉 [https://efficio-app.vercel.app](https://efficio-app.vercel.app)
+
+---
+
 > For more details, refer to the codebase and inline documentation.
