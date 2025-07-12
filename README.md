@@ -8,8 +8,6 @@ Advanced MERN B2B Teams Project Management SaaS is a robust, scalable, and featu
 
 ## 💻 Screenshots
 
-> _Replace the image links below with actual screenshots when available._
-
 ### Dashboard
 
 ![Dashboard Screenshot](./screenshots/dashboard-placeholder.png)
